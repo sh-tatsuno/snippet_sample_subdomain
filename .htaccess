@@ -1,0 +1,5 @@
+<ifmodule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/index.html
+RewriteRule ^(.*)index.html$ https://geekshu625.github.io/snippet_sample/$1 [R=301,L]
+</ifmodule>
