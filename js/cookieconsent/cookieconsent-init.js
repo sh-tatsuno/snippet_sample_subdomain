@@ -19,7 +19,7 @@ cc.run({
     // force_consent: false,
     // hide_from_bots: false,                   // default: false
     // remove_cookie_tables: false              // default: false
-    // cookie_domain: location.hostname,        // default: current domain
+    cookie_domain: "upsell.jp",        // default: current domain
     // cookie_path: "/",                        // default: root
     // cookie_same_site: "Lax",
     // use_rfc_cookie: true,                   // default: false
